@@ -17,11 +17,11 @@ function setActiveStyle(color)
     alternateStyles.forEach((style) => {
         if(color === style.getAttribute("title"))
         {
-            style.removeAttribute("disbaled");
+            style.removeAttribute("disabled");
         }
         else
         {
-            style.setAttribute("disbaled", "true");
+            style.setAttribute("disbaled","true");
         }
     })
 }
